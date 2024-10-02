@@ -1,0 +1,107 @@
+body{
+    background-image: url(src/Screenshot\ 2024-04-30\ at\ 10.15.17\ AM.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400%;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 30%;
+    animation: fadein 1s 1 ;
+
+}
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400%;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 40%;
+    animation: fadein 1s 1 ;
+
+}
+.part1{
+    z-index: -1;
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+}
+.image{
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+    background-image: url(pinsgame.png);
+    background-size:cover ;
+   
+    
+
+
+}
+
+.menubar{
+    z-index: 90000;
+    background-color: #3402db;
+    height: 5%;
+    width: 100%;
+    box-shadow: 1px 1px 50px 10px  black;
+    background-attachment: fixed;
+    position: -webkit-sticky; /* Safari & IE */
+    position: fixed;
+    top: 0;
+
+
+}
+
+@keyframes fadein {
+    from{opacity: 0;}
+    from{font-size: 0;}
+}
+
+.download{
+    position: absolute;
+    top: 250%;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+
+.part2{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 100);
+    opacity: 0;
+    z-index: 40;
+    scroll-behavior: smooth;
+    scrollbar-color:#3402db;
+
+}
+
+.text3{
+    height: 100%;
+    width: 100%;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 140%;
+    z-index: 1000;
+    color: aliceblue;    
+    text-align: center;
+    opacity: 0;
+}
