@@ -1,0 +1,327 @@
+body{
+    background-color: #D9AFD9;
+    background-image: url(src/620bd6d655f2044afa28bff4_glassmorphism.jpeg);
+    
+    padding: 0;
+    margin: 0%;
+}
+
+
+.circle1{
+    height: 10%;
+    width: 6%;
+    background-color: pink;
+    border-radius: 122%;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    
+}
+.circle2{
+    height: 20%;
+    width: 12%;
+    background-color: #97D9E1;
+    border-radius: 122%;
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    
+}
+.circle3{
+    height: 20%;
+    width: 12%;
+    background-color: #99A9E1;
+    border-radius: 122%;
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    
+}
+.mainbody{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    height: 80%;
+    width: 90%;
+    background-color: rgba(256, 256, 256, 0.334);
+    backdrop-filter: blur(5px);
+    box-shadow: inset;
+    animation-name:fadein;
+    border-radius: 20px;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    box-shadow: 0 0 20px #000000;
+
+    
+}
+
+@keyframes fadein {
+    from{opacity: 0;}
+}
+
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.projtit{
+    color: white;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-align: center;
+
+    position: relative;
+    top: 5%;
+
+}
+
+.projimg{
+    background-image: url(src/ballreturn.jpg);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.text2{
+    color: aliceblue;
+    
+}
+
+
+         
+.text2 {
+    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
+
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    position: absolute;
+    top:80%;
+    left: 31%;
+  }
+
+  .text2:hover {
+    background-position:  center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+.Uibuttons{
+    width: 10%;
+    height: 5%;
+  
+    position: absolute;
+    top:2%;
+    left: 1%;
+}
+
+.close{
+    background-color: #ff6159;
+    width: 15px;  
+    position: absolute;
+    height: 15px;
+    border-radius: 100px;
+    left: 10%;
+    top: 20%;
+    border-style: none;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+   
+
+    
+}
+
+.min{
+    background-color:  #ffbd2e;
+    width: 15px;  
+    position: absolute;
+    height: 15px;
+    border-radius: 100px;
+    left: 30%;
+    top: 20%;
+    border-style: none;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+   
+
+    
+}
+
+.full{
+    background-color:   #28c941;
+    width: 15px;  
+    position: absolute;
+    height: 15px;
+    border-radius: 100px;
+    left: 50%;
+    top: 20%;
+    border-style: none;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+   
+
+    
+}
+
+.sitemap{
+    height: 5%;
+    width: 100%;
+    background-color: rgba(256, 256, 256, 0.334);
+    backdrop-filter: blur(1px);
+    box-shadow: inset;
+    animation-name:fadein;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    box-shadow: 0 0 20px black;
+
+}
+
+
+.button1,.button2,.button3,.button4,.button5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color:blue ;
+    float: left;
+    padding-left: 4%;
+    position: relative;
+    top: 20%;
+    text-transform:capitalize ;
+}
+
+.button1:hover{
+    transition-duration: 0.5s;
+    cursor:pointer;
+    color: white;
+}
+
+.button2:hover{
+    transition-duration: 0.5s;
+    cursor:pointer;
+    color: white;
+}
+
+.button3:hover{
+    transition-duration: 0.5s;
+    cursor:pointer;
+    color: white;
+}
+
+.button4:hover{
+    transition-duration: 0.5s;
+    cursor:pointer;
+    color: white;
+}
+
+.button5:hover{
+    transition-duration: 0.5s;
+    cursor:pointer;
+    color: white;
+}
+
+.button6{
+    background-image: url(src/cistyscapecolor.JPG);
+    height: 30%;
+    width: 21%;
+    background-size: cover;
+    position: absolute;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.button7{
+    background-color: black;
+    height: 30%;
+    width: 21%;
+    background-size: cover;
+    position: absolute;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 34%;
+}
+
+.button8{
+    background-image: url(src/cistyscapecolor.JPG);
+    height: 30%;
+    width: 21%;
+    background-size: cover;
+    position: absolute;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 58%;
+}
+
+         
+.button20 {
+   background-image: linear-gradient(to right, #283048 0%, #859398  51%, #283048  100%);
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   font-family:Arial, Helvetica, sans-serif ;
+   font-weight: 900;
+ }
+
+ .button20:hover{
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ .button21 {
+    background-image: linear-gradient(to right, #283048 0%, #859398  51%, #283048  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 900;
+  }
+ 
+  .button21:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+.websitever{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 95%;
+}
